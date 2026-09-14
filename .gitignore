@@ -1,0 +1,7 @@
+**/build/
+**/bin/
+**/.gradle/
+**/data/
+.gradle-home/
+.idea/
+*.iml
