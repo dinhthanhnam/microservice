@@ -15,9 +15,4 @@ public class OrderServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(OrderServiceApplication.class, args);
     }
-
-    @Bean
-    CommandLineRunner configProof(@Value("${app.demo-message}") String message) {
-        return args -> System.out.println("[config-server] app.demo-message=" + message);
-    }
 }

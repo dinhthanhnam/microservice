@@ -13,9 +13,4 @@ public class ProductServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(ProductServiceApplication.class, args);
     }
-
-    @Bean
-    CommandLineRunner configProof(@Value("${app.demo-message}") String message) {
-        return args -> System.out.println("[config-server] app.demo-message=" + message);
-    }
 }
